@@ -33,3 +33,17 @@ else {
 }
 
 printMessage('Twój ruch to: ' + playerMove);
+
+let playerMove == 'nieznany ruch';
+
+if( computerMove == 'kamień' && playerMove == 'papier'){
+	printMessage('Ty wygrywasz!');
+  }
+
+else if( computerMove == 'kamień' && playerMove == 'nożyce'){
+	printMessage('Ty przegrywasz!');
+}
+  
+else if { computerMove == 'kamień' && playerMove == 'kamień'
+	printMessage('Remis!')	
+}
