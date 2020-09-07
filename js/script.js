@@ -22,19 +22,17 @@ console.log('Gracz wpisał: ' + playerInput);
 
 let playerMove = 'nieznany ruch';
 
-if(playerInput == '1'){
+if(playerInput == 1){
   playerMove = 'kamień';
 }
 else if (playerInput == 2) {
 	printMessage('papier');
 } 
-else {
+else if {playerInput == 3
 	printMessage('nożyce');
 }
 
 printMessage('Twój ruch to: ' + playerMove);
-
-let playerMove == 'nieznany ruch';
 
 if( computerMove == 'kamień' && playerMove == 'papier'){
 	printMessage('Ty wygrywasz!');
