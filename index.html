@@ -4,17 +4,35 @@
 	<meta charset="UTF-8">
 	<title>Kamień, papier, nożyce</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Norican&amp;family=Spectral:ital,wght@1,500&amp;display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
 </head>
 <body>
 	<div class="container">
-		<div id="buttons">
-			<button id="play-rock">Kamień</button>
-			<button id="play-paper">Papier</button>
-			<button id="play-scissors">Nożyce</button>
+		<div class="game">
+			<h1>Kamień Papier Nożyce</h1>
+			<span>wybierz swój ruch</span> 
+			<div id="buttons" class="buttons">
+				<i class="far fa-hand-rock" id="play-rock"></i>
+				<i class="far fa-hand-paper" id="play-paper"></i>
+				<i class="far fa-hand-scissors" id="play-scissors"></i>
+			</div>
+			<div id="messages" class="messages"><div>Mój ruch to: papier</div><div>Twój ruch to: papier</div><div>Remis!</div></div>
 		</div>
-		<div id="messages"></div>
+		<div id="result" class="score">
+			<div class="player-score">
+				<h2>Player</h2>
+				<p>0</p>
+			</div>
+			<div class="computer-score">
+				<h2>Computer</h2>
+				<p>0</p>
+			</div>
+
+		</div>
 	</div>
 	<script src="js/functions.js"></script>
 	<script src="js/script.js"></script>
+
 </body>
 </html>

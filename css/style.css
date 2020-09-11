@@ -1,0 +1,67 @@
+body {
+  margin: 0px;
+}
+
+.container {
+  height: 100vh;
+  position: relative;
+  background-image: url(https://images.pexels.com/photos/1111597/pexels-photo-1111597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+}
+
+.game {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  -webkit-margin-before: 0.67em;
+          margin-block-start: 0.67em;
+  -webkit-margin-after: 0.67em;
+          margin-block-end: 0.67em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+}
+
+span {
+  font-family: Spectral, sans-serif;
+}
+
+.buttons {
+  font-size: 96px;
+  padding: 50px 0px;
+}
+
+.buttons i {
+  cursor: pointer;
+  padding: 0px 25px;
+}
+
+.messages {
+  font-family: Spectral, sans-serif;
+  text-transform: uppercase;
+}
+
+.score {
+  color: white;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
